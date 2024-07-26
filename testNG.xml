@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+    <listeners>
+        <listener class-name="com.github.listners.ReportGenerator"/>
+    </listeners>
+    <test name="Repository Tests">
+        <classes>
+            <class name="com.github.tests.CRUD.GetSingleRepository"/>
+        </classes>
+    </test>
+</suite>
